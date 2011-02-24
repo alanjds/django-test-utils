@@ -12,7 +12,7 @@ test-utils/>`__. The 0.2 release is available at `Pypi
 <http://pypi.python.org/pypi/django-test-utils/0.2>`__
 
 
-What is does
+What it does
 ============
 
 Django testmaker is an application that writes tests for your Django
@@ -31,12 +31,12 @@ Step 2:
 
 .. sourcecode:: python
 
-     ./manage.py testmaker -a APP
+     ./manage.py testmaker -a APP_NAME
 
 
-This will start the development server with testmaker loaded in. APP
-must be in installed apps, and it will use Django's mechanism for
-finding it. It should look a little something like this:
+This will start the development server with testmaker loaded in. APP_NAME must
+be in installed apps, and it will use Django's mechanism for finding it. It
+should look a little something like this:
 
 .. sourcecode:: python
 
@@ -64,7 +64,7 @@ Step 3:
 
 .. sourcecode:: python
 
-    ./manage.py test -a APP
+    ./manage.py test -a APP_NAME
 
 Testmaker Internal Basics
 =========================
